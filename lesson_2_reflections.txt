@@ -12,3 +12,5 @@ D)How can you use the staging area to make sure you have one commit per logical 
      2)git diff --statged   comparing the commit 1 and staging field
      3)git commit           if the 2) shows the logical change what you want, then do 3)
 
+E)What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+     Italian version/ experimental feature
