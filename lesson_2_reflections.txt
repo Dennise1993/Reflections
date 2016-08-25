@@ -6,3 +6,9 @@ B)How is the staging area different from the working directory and the repositor
      Keep commits small with one commit per loggical change.
      staging area is intermediate area
      Git bundles the entire contents of the staging area into a single commit and adds that to a respository
+
+D)How can you use the staging area to make sure you have one commit per logical change?
+     1)git add fileName
+     2)git diff --statged   comparing the commit 1 and staging field
+     3)git commit           if the 2) shows the logical change what you want, then do 3)
+
