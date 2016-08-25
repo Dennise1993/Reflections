@@ -1,0 +1,3 @@
+A) What happens when you initialize a repository? Why do you need to do it?
+     There will be a hidden file named .git in your directory once you initialize a respository. It records the history of metadata. we can see it only if we type ls -a in GitBash.
+     Initializing a repository can help us track all the files which we have commited.

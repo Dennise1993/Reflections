@@ -1,0 +1,20 @@
+
+git diff 
+    Compare two commits, printing each line that is present in one commit but not the other.
+    It takes two arguments - the two commit ids to compare.
+    git diff considers the first argument as the "original", and the second argument as the "new" version
+
+git clone
+    Make a copy of an entire Git repository, including the history, onto your own computer.
+    the url of the repository to copy.
+
+git checkout
+    Temporarily reset all files in a directory to their state at the time of a specific commit.
+    It takes one argument - the commit ID to restore.
+
+git log
+    Show the commits made in this repository, starting with the most recent.
+    It doesn't take any arguments.
+
+    git log --stat (more detailed information about which files are changed, how many lines are added or deleted)
+
