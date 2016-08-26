@@ -14,3 +14,7 @@ D)How can you use the staging area to make sure you have one commit per logical 
 
 E)What are some situations when branches would be helpful in keeping your history organized? How would branches help?
      Italian version/ experimental feature
+
+F）How do the diagrams help you visualize the branch structure?
+     git log --graph --oneline branchNameA branchNameB using the different symbole help distinguish different banches
+     
