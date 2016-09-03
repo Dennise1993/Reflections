@@ -4,9 +4,9 @@ A)How did viewing a diff between two versions of a file help you see the bug tha
 
   2.diff -u name.html name2.html
 
-    then you will see there were some linew at the top. They are showing   that you're comparing favorite-app-old.html to favorite.html.
+    then you will see there were some lines at the top. They are showing that you're comparing favorite-app-old.html to favorite.html.
 
-    Ones with no plus and minus sugn next to them havn't changed, they existed in both two versions.
+    Ones with no plus and minus sign next to them havn't changed, they existed in both two versions.
  
     Lines with a minus sign were removed.
     Lines with a plus sign were added, so vice versa.
