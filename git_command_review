@@ -1,8 +1,26 @@
+git add
+    Add a file to the staging area
+
+git commit
+    Commit the files from the staging area to the repository
+
+git status
+    Show which files are in the staging area, and which files from the working directory are not part of the repository
 
 git diff 
     Compare two commits, printing each line that is present in one commit but not the other.
     It takes two arguments - the two commit ids to compare.
     git diff considers the first argument as the "original", and the second argument as the "new" version
+
+git diff --staged
+    Compare the staging area with the repository
+
+git reset --hard
+    Undo all changes in staging area and working directory. There is no turning back, so be careful!!!
+
+git branch branchName
+    create a new branch
+
 
 git clone
     Make a copy of an entire Git repository, including the history, onto your own computer.
@@ -12,9 +30,40 @@ git checkout
     Temporarily reset all files in a directory to their state at the time of a specific commit.
     It takes one argument - the commit ID to restore.
 
+git checkout -b newBranchName 
+    Create a new branch and checkout it
+
+git merge <branch1> <brach2>
+    Merge 2 branches, branch2 get merged into branch1
+
+git branch -d name
+    Remove the branch with the specified name
+
+git show commitId 
+   Show the changes made in this commit compared to the previous version. This is working even after merging.
+
 git log
     Show the commits made in this repository, starting with the most recent.
     It doesn't take any arguments.
 
-    git log --stat (more detailed information about which files are changed, how many lines are added or deleted)
+git log --stat 
+    more detailed information about which files are changed, how many lines are added or deleted
+    
+git log --graph --oneline <branch1> <branch2>
+    Show visual representation of the commit history within different branches
+
+git remote
+    Show all the remote you have created
+
+git remote add remoteName SSH
+    create new remote
+
+git remote -v
+    Show the remote name and url where I fetch data from and push data to
+
+git push remoteName branchName
+    Send the changes to remote
+
+git config --global color.ui auto 
+    Get colored diff output
 
